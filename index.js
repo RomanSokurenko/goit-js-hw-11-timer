@@ -51,7 +51,7 @@ class CountdownTimer {
 
     reflectInitialDate = () => {
         let values = this.getValues();
-        document.querySelector(`${this.selector} span[data-value="secs"]`).textContent = values.secsPlace;
+        // document.querySelector(`${this.selector} span[data-value="secs"]`).textContent = values.secsPlace;
         document.querySelector(`${this.selector} span[data-value="mins"]`).textContent = values.minsPlace;
         document.querySelector(`${this.selector} span[data-value="hours"]`).textContent = values.hoursPlace;
         document.querySelector(`${this.selector} span[data-value="days"]`).textContent = values.daysPlace;
